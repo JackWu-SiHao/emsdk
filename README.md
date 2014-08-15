@@ -4,6 +4,10 @@ The whole Emscripten toolchain is distributed as a standalone Emscripten SDK. Th
 
 You can also set up Emscripten from source, without the pre-built SDK, see "Installing from Source" below.
 
+## My Run command(on Windows)
+1. cd to C:\\Program Files\Emscripten\emscripten\1.22.0
+2. Run `em++ -std=c++11 -Wno-warn-absolute-paths -O3 test.cpp -o a.out.js`
+
 ## Downloads
 
 To get started with Emscripten development, grab one of the packages below:
