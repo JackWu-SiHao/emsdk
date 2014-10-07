@@ -7,6 +7,7 @@ You can also set up Emscripten from source, without the pre-built SDK, see "Inst
 ## My Run command(on Windows)
 1. cd to C:\\Program Files\Emscripten\emscripten\1.22.0
 2. Run `em++ -std=c++11 -Wno-warn-absolute-paths -O3 test.cpp -o a.out.js`
+3. Try `-s NO_FILESYSTEM=1` and `-s NO_BROWSER=1` to enable reducing output file sizes
 
 ## Downloads
 
